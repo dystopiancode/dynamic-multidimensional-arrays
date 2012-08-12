@@ -1,10 +1,3 @@
-/*
- * dmda.h
- *
- *  Created on: Aug 12, 2012
- *      Author: bogdan
- */
-
 #ifndef DMDA_H_
 #define DMDA_H_
 
@@ -34,10 +27,6 @@ IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY O
 For more information about this library, see:
 http://dystopiancode.blogspot.com
 */
-
-#ifndef NUMERIC_DYNAMIC_ARRAYS_H
-#define NUMERIC_DYNAMIC_ARRAYS_H
-
 #include<stdlib.h>
 
 /*
@@ -136,7 +125,5 @@ void*** NFree3D(void ***vector, size_t xsize, size_t ysize);
  *  NULL
  */
 void**** NFree4D(void ****vector, size_t xsize, size_t ysize, size_t zsize);
-
-#endif
 
 #endif /* DMDA_H_ */
